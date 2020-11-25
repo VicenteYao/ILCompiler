@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlatformServices
+namespace PlatformServices.Devices
 {
-    public enum AddressSpaceFlags
+    class VideoBuffer
     {
-        None,
-        Physical,
-        Virtual,
     }
 }

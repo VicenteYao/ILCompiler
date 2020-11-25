@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CompilerServices.Platforms.X86
+namespace PlatformServices.Platforms.X86
 {
     public enum X86SegmentRegisters
     {

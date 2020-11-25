@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace PlatformServices
 {
-    public enum AddressSpaceFlags
+    [AddressSpace(AddressSpaceFlags.Physical)]
+    public struct DispatcherHeader
     {
-        None,
-        Physical,
-        Virtual,
+        public DispatcherTypes Type;
     }
 }

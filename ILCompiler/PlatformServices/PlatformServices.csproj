@@ -9,8 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="IO\" />
+    <Folder Include="Platforms\X86\Memory\Management\" />
+    <Folder Include="Threading\Scheduling\" />
     <Folder Include="UEFI\" />
     <Folder Include="BIOS\" />
+    <Folder Include="Boot\" />
+    <Folder Include="Storage\FileSystem\" />
   </ItemGroup>
 
 </Project>

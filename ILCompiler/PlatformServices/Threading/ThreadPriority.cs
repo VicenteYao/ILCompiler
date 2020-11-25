@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlatformServices
+namespace PlatformServices.Threading
 {
-    public enum AddressSpaceFlags
+    class ThreadPriority
     {
-        None,
-        Physical,
-        Virtual,
     }
 }

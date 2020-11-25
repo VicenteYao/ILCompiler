@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CompilerServices
+namespace PlatformServices
 {
     public unsafe static class Memory
     {

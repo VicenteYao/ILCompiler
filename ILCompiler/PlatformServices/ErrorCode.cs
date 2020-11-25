@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace PlatformServices
 {
-    public enum AddressSpaceFlags
+    public enum ErrorCode
     {
-        None,
-        Physical,
-        Virtual,
+
     }
 }

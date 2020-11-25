@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace PlatformServices
 {
-    public enum AddressSpaceFlags
+    public class PlatformAttribute: Attribute
     {
-        None,
-        Physical,
-        Virtual,
+        public PlatformAttribute()
+        {
+
+        }
     }
 }
