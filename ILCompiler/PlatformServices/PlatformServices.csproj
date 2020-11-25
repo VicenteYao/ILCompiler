@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+	  <LangVersion>preview</LangVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -9,13 +10,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="IO\" />
     <Folder Include="Platforms\X86\Memory\Management\" />
     <Folder Include="Threading\Scheduling\" />
     <Folder Include="UEFI\" />
     <Folder Include="BIOS\" />
     <Folder Include="Boot\" />
     <Folder Include="Storage\FileSystem\" />
+    <Folder Include="Configurations\" />
+    <Folder Include="Caches\" />
+    <Folder Include="Performance\" />
+    <Folder Include="Power\" />
   </ItemGroup>
 
 </Project>

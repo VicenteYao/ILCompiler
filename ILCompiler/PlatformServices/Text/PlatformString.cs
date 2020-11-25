@@ -22,9 +22,9 @@ namespace PlatformServices.Text
             return null;
         }
 
-        public static ErrorCode Free(PlatformString* pString)
+        public static PlatformCode Free(PlatformString* pString)
         {
-            return default(ErrorCode);
+            return default(PlatformCode);
         }
 
     }

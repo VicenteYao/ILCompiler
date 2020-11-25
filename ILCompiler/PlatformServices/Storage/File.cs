@@ -13,31 +13,31 @@ namespace PlatformServices.Storage
     {
         public DispatcherHeader Header;
 
-        public static ErrorCode Create(PlatformString* fileName, File** ppFile)
+        public static PlatformCode Create(PlatformString* fileName, File** ppFile)
         {
             ppFile = null;
-            return default(ErrorCode);
+            return default(PlatformCode);
         }
 
-        public static ErrorCode Open(PlatformString* fileName, FileMode fileMode, File** ppFile)
+        public static PlatformCode Open(PlatformString* fileName, FileMode fileMode, File** ppFile)
         {
             ppFile = null;
-            return default(ErrorCode);
+            return default(PlatformCode);
         }
 
-        public static ErrorCode Close(File* pFile)
+        public static PlatformCode Close(File* pFile)
         {
-            return default(ErrorCode);
+            return default(PlatformCode);
         }
 
-        public static ErrorCode Delete(File* pFile)
+        public static PlatformCode Delete(File* pFile)
         {
-            return default(ErrorCode);
+            return default(PlatformCode);
         }
 
-        public static ErrorCode Write(File* pFile, byte* value)
+        public static PlatformCode Write(File* pFile, byte* value)
         {
-            return default(ErrorCode);
+            return default(PlatformCode);
         }
     }
 }
