@@ -11,7 +11,7 @@ namespace CompilerServices.Platforms.X86
     {
         public static void Emit<T>([Constant] X86OpCodes opCodes, T operand) where T : unmanaged
         {
-
+            
         }
 
     }
