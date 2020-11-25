@@ -8,4 +8,9 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="UEFI\" />
+    <Folder Include="BIOS\" />
+  </ItemGroup>
+
 </Project>
