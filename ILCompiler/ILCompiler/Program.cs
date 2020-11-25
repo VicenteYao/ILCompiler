@@ -7,7 +7,6 @@ namespace ILCompiler
         static void Main(string[] args)
         {
             Console.WriteLine("PrintUsage");
-
         }
     }
 }

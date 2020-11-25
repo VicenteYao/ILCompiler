@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30626.31
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILCompiler", "ILCompiler\ILCompiler.csproj", "{A35F7B31-88D6-44F1-83B3-154D339786EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ILCompiler", "ILCompiler\ILCompiler.csproj", "{A35F7B31-88D6-44F1-83B3-154D339786EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompilerServices", "CompilerServices\CompilerServices.csproj", "{EF6C0DAB-CBA4-44D0-B025-ED51F68C8B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlatformServices", "PlatformServices\PlatformServices.csproj", "{EF6C0DAB-CBA4-44D0-B025-ED51F68C8B1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

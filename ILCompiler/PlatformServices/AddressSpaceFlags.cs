@@ -8,6 +8,7 @@ namespace CompilerServices
 {
     public enum AddressSpaceFlags
     {
+        None,
         Kernel,
         User,
     }

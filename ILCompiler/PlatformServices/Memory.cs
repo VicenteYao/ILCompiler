@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -12,6 +13,7 @@ namespace CompilerServices
     {
         public static T* Alloc<T>([Constant] uint size) where T : unmanaged
         {
+            
             return null;
         }
 

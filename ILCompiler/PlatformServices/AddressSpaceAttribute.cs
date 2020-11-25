@@ -2,7 +2,7 @@
 
 namespace CompilerServices
 {
-    [AttributeUsage(AttributeTargets.Method | AttributeTargets.Struct, AllowMultiple = false, Inherited = true)]
+    [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class AddressSpaceAttribute : Attribute
     {
         public AddressSpaceAttribute(AddressSpaceFlags addressSpaceFlags)

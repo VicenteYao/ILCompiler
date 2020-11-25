@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CompilerServices
 {
-    public class  Processor
+    public static class  Processor
     {
 
     }
